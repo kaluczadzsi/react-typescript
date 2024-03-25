@@ -1,6 +1,9 @@
 import Greet from './components/Greet';
+import Heading from './components/Heading';
+import Oscar from './components/Oscar';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
+import Status from './components/Status';
 
 const App = () => {
   const personName = {
@@ -28,6 +31,12 @@ const App = () => {
       <Greet name={'Tony'} messageCount={10} isLoggedIn={false} />
       <Person name={personName} />
       <PersonList names={nameList} />
+      <Status status="success" />
+
+      <Oscar>
+        <Heading>Oscar goes to Leonardo Dicaprio!</Heading>
+      </Oscar>
+      <Greet name={'Mike'} isLoggedIn={true} />
     </div>
   );
 };
