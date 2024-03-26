@@ -1,9 +1,9 @@
-import Container from './components/Container';
+import Person from './components/Person';
 
 const App = () => {
   return (
     <div>
-      <Container styles={{ border: '1px solid black', padding: '1rem' }} />
+      <Person name={{ first: 'Tom', last: 'Cage' }} />
     </div>
   );
 };
