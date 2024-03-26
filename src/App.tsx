@@ -1,9 +1,9 @@
-import Person from './components/Person';
+import LoggedIn from './components/state/LoggedIn';
 
 const App = () => {
   return (
     <div>
-      <Person name={{ first: 'Tom', last: 'Cage' }} />
+      <LoggedIn />
     </div>
   );
 };
