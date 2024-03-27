@@ -1,9 +1,9 @@
-import LoggedIn from './components/state/LoggedIn';
+import Counter from './components/Counter';
 
 const App = () => {
   return (
     <div>
-      <LoggedIn />
+      <Counter />
     </div>
   );
 };
