@@ -1,10 +1,14 @@
-import Counter from './components/Counter';
+import { ThemeContextProvider } from './components/context/ThemeContext';
+import { theme } from './components/context/theme';
+import Box from './components/context/Box';
 
 const App = () => {
   return (
-    <div>
-      <Counter />
-    </div>
+    <>
+      <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider>
+    </>
   );
 };
 
