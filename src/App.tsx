@@ -1,13 +1,12 @@
-import { ThemeContextProvider } from './components/context/ThemeContext';
-import { theme } from './components/context/theme';
-import Box from './components/context/Box';
+import { UserContextProvider } from './components/context/UserContext';
+import User from './components/context/User';
 
 const App = () => {
   return (
     <>
-      <ThemeContextProvider>
-        <Box />
-      </ThemeContextProvider>
+      <UserContextProvider>
+        <User />
+      </UserContextProvider>
     </>
   );
 };
