@@ -1,13 +1,10 @@
-import { UserContextProvider } from './components/context/UserContext';
-import User from './components/context/User';
+import MutableRef from './components/ref/MutableRef';
 
 const App = () => {
   return (
-    <>
-      <UserContextProvider>
-        <User />
-      </UserContextProvider>
-    </>
+    <div>
+      <MutableRef />
+    </div>
   );
 };
 
