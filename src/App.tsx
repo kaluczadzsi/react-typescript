@@ -1,9 +1,9 @@
-import MutableRef from './components/ref/MutableRef';
+import Counter from './components/class/Counter';
 
 const App = () => {
   return (
     <div>
-      <MutableRef />
+      <Counter message="The count value is: " />
     </div>
   );
 };
