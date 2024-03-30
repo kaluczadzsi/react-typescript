@@ -1,10 +1,9 @@
-import Private from './components/auth/Private';
-import Profile from './components/auth/Profile';
+import RandomNumber from './components/restriction/RandomNumber';
 
 const App = () => {
   return (
     <div>
-      <Private isLoggedIn={true} component={Profile} />
+      <RandomNumber value={10} isPositive isNegative />
     </div>
   );
 };
